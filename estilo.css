@@ -1,0 +1,17 @@
+*{
+    margin: 5px; /*que este bien a la izq, sin margen */
+    padding:3px; /*que no tenga relleno*/
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif; /*lista de fuentes */
+    font-style: normal; /*estilo del texto o fuente*/
+    /* font-size: 16px;    --> tamaño de la fuente */
+}
+
+h1{
+    color:red;
+    background-color: beige;
+    font-size: 40px;
+}
+
+img{
+    margin: center;
+}
