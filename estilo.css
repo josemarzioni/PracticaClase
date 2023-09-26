@@ -7,19 +7,16 @@
 }
 
 h1{
+    text-align: center;
     color:red;
     background-color: beige;
     font-size: 40px;
 }
 
-/*img{
-    margin: center;
-}*/
-
-
-
-
-
+/*h1:hover{ 
+    animation: flip;
+    animation-duration: 5s;
+} */
 
 
 header,footer{
@@ -29,16 +26,10 @@ header,footer{
 footer{
     text-align: center;
 }
-h1{
-    text-align: center;
-}
-h1:hover{ /*no funciona  */
-    animation: bounce;
-    animation-duration: 2s;
-}
+
 #tel:hover {
-    animation: bounce;   /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 4s;  /* don't forget to set a duration! */
+    animation: heartBeat;   /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;  /* don't forget to set a duration! */
 }
 nav  a{  /* a la etiqueta nav que tiene como descendoiente una eituqta a*/
     padding: 10px;
@@ -51,13 +42,13 @@ nav  a{  /* a la etiqueta nav que tiene como descendoiente una eituqta a*/
 }
 nav a:link {color: red;}/* color rojo a todos los link*/
 nav a:hover {
-    background-color: yellow;
+    background-color: black;
+    color: white;
     /*transform: skew(20deg)*/
     animation: bounce;
     animation-duration: 2s;
-
 }
-nav a:visited {color: blue;}
+/*nav a:visited {color: blue;}*/
 nav a:active {background-color: green; color: white;}
 
 p::selection{
@@ -81,9 +72,10 @@ p::selection{
     /*display: none;*/
    /* visibility: hidden;*/
 }
+
 /* tarjeta */
 #card{
-    width: 250px;
+    width: 350px;
     padding: 5px;
     border: 1px solid black;
     
